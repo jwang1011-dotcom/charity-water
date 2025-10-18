@@ -1,1 +1,2 @@
 # charity: water website
+As a future nonprofit leader who values impact, innovation, and transparency, you want to invest in solutions that create measurable and lasting change. At charity: water, we bring clean and safe drinking water to those in need. We commit all public donations to funding clear water projects, while using cutting-edge technology to track every dollar and prove every project—ensuring your contribution fuels real, visible transformation.
