@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>charity: water | Deliver Lasting Change</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #0A2540;
+      background-color: #E0EEF2;
+      line-height: 1.6;
+    }
+
+    /* ===== Header ===== */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #7DA7B3;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .logo span {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .sign-btn {
+      background-color: #FFD700;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    /* ===== Hero Section ===== */
+    .hero {
+      background-color: #002855;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3rem 5%;
+    }
+
+    .hero-text {
+      flex: 1 1 400px;
+      max-width: 550px;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      color: #D6E9F5;
+    }
+
+    .hero-input {
+      background-color: #FFF7DC;
+      padding: 0.8rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 350px;
+    }
+
+    .hero-input input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .hero-input button {
+      background-color: #FFD700;
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    /* ===== Hero Images ===== */
+    .hero-images {
+      flex: 1 1 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .hero-images img.main-img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .small-imgs {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .small-imgs img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    /* ===== Responsive Design ===== */
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-input {
+        margin: 0 auto;
+      }
+
+      .hero-images {
+        margin-top: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Charity_Water_logo.png" alt="charity: water logo">
+      <span>charity: water</span>
+    </div>
+    <button class="sign-btn">Sign In / Sign Up</button>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Be the Leader Who Delivers Lasting Change</h1>
+      <p>With charity: water, your vision for impact is backed by 100% donation transparency, proven results, and technology that brings clean water—and hope—to all of those in need.</p>
+      <div class="hero-input">
+        <input type="text" placeholder="HELLO">
+        <button>Join Today</button>
+      </div>
+    </div>
+
+    <div class="hero-images">
+      <img src="https://via.placeholder.com/420x300" alt="Main Image" class="main-img">
+      <div class="small-imgs">
+        <img src="https://via.placeholder.com/150x100" alt="Small Image 1">
+        <img src="https://via.placeholder.com/150x100" alt="Small Image 2">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
